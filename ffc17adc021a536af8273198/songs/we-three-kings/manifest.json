@@ -1,0 +1,207 @@
+{
+  "title": "We Three Kings",
+  "slug": "we-three-kings",
+  "order": 3,
+  "key": null,
+  "tempo": 150.0,
+  "meter": [
+    3,
+    4
+  ],
+  "duration": 250.8,
+  "sampleRate": 44100,
+  "samples": 11060280,
+  "speeds": [
+    1
+  ],
+  "hash": "c67122b2fc7ab34d",
+  "sections": [
+    {
+      "name": "Intro",
+      "detail": null,
+      "bar": 1,
+      "start": 0.0,
+      "end": 14.4
+    },
+    {
+      "name": "Verse 1",
+      "detail": null,
+      "bar": 13,
+      "start": 14.4,
+      "end": 34.8
+    },
+    {
+      "name": "Refrain 1",
+      "detail": null,
+      "bar": 30,
+      "start": 34.8,
+      "end": 54.0
+    },
+    {
+      "name": "Interlude 1",
+      "detail": null,
+      "bar": 46,
+      "start": 54.0,
+      "end": 63.6
+    },
+    {
+      "name": "Verse 2",
+      "detail": null,
+      "bar": 54,
+      "start": 63.6,
+      "end": 84.0
+    },
+    {
+      "name": "Refrain 2",
+      "detail": null,
+      "bar": 71,
+      "start": 84.0,
+      "end": 103.2
+    },
+    {
+      "name": "Interlude 2",
+      "detail": null,
+      "bar": 87,
+      "start": 103.2,
+      "end": 112.8
+    },
+    {
+      "name": "Verse 3",
+      "detail": null,
+      "bar": 95,
+      "start": 112.8,
+      "end": 133.2
+    },
+    {
+      "name": "Refrain 3",
+      "detail": null,
+      "bar": 112,
+      "start": 133.2,
+      "end": 152.4
+    },
+    {
+      "name": "Interlude 3",
+      "detail": null,
+      "bar": 128,
+      "start": 152.4,
+      "end": 162.0
+    },
+    {
+      "name": "Verse 4",
+      "detail": null,
+      "bar": 136,
+      "start": 162.0,
+      "end": 182.4
+    },
+    {
+      "name": "Refrain 4",
+      "detail": null,
+      "bar": 153,
+      "start": 182.4,
+      "end": 201.6
+    },
+    {
+      "name": "Interlude 4",
+      "detail": null,
+      "bar": 169,
+      "start": 201.6,
+      "end": 211.2
+    },
+    {
+      "name": "Verse 5",
+      "detail": null,
+      "bar": 177,
+      "start": 211.2,
+      "end": 231.6
+    },
+    {
+      "name": "Refrain 5",
+      "detail": null,
+      "bar": 194,
+      "start": 231.6,
+      "end": 250.8
+    }
+  ],
+  "tracks": [
+    {
+      "id": "children",
+      "name": "Children",
+      "kind": "voice",
+      "files": {
+        "1": "children.f9e64edf12.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "percussion",
+      "name": "Percussion",
+      "kind": "instrument",
+      "files": {
+        "1": "percussion.4db505b9c9.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "bassline",
+      "name": "Bass line",
+      "kind": "instrument",
+      "files": {
+        "1": "bassline.98ba34e32e.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "keys",
+      "name": "Keys",
+      "kind": "instrument",
+      "files": {
+        "1": "keys.aec7c968a3.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "winds",
+      "name": "Oboe & Winds",
+      "kind": "instrument",
+      "files": {
+        "1": "winds.8c6f710ea0.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "violins",
+      "name": "Violins",
+      "kind": "instrument",
+      "files": {
+        "1": "violins.877563552d.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "celli",
+      "name": "Celli",
+      "kind": "instrument",
+      "files": {
+        "1": "celli.b1e2df26a9.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "click",
+      "name": "Click",
+      "kind": "click",
+      "files": {
+        "1": "click.0e847d6a22.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    }
+  ]
+}

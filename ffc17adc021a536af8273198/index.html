@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)" />
+  <title>Part Player</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icon-180.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <script type="module" crossorigin src="./assets/index-BksRQBym.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Ci_ZjGRX.css">
+</head>
+<body>
+  <!-- Left shelf: the setlist. Always open on wide screens, a drawer on phones. -->
+  <aside id="shelf" aria-label="Songs">
+    <header>
+      <h2>Songs</h2>
+      <button id="closeshelf" class="only-narrow" aria-label="Close song list">✕</button>
+    </header>
+    <ol id="songs"></ol>
+    <p class="hint">Save a song to play it without a connection.</p>
+  </aside>
+  <div id="scrim" class="only-narrow" hidden></div>
+
+  <div id="page">
+    <header class="top">
+      <button id="shelfbtn" class="only-narrow" aria-label="Song list" aria-controls="shelf" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <div>
+        <h1 id="songtitle">Loading…</h1>
+        <p id="meta" class="meta"></p>
+      </div>
+    </header>
+
+    <main>
+      <div id="error" class="error" role="alert" hidden>
+        <p id="errortext"></p>
+        <button id="retry">Retry</button>
+      </div>
+
+      <div class="presets" role="group" aria-label="Mix presets">
+        <button data-preset="full">Full mix</button>
+        <button data-preset="voices">Voices only</button>
+        <button data-preset="instruments">Instruments only</button>
+      </div>
+      <div class="mypart">
+        <label for="mypart">My part</label>
+        <select id="mypart"></select>
+        <button id="without" aria-pressed="false">Without me</button>
+      </div>
+      <div id="mixer" aria-label="Tracks"></div>
+
+      <details id="settings">
+        <summary>Settings &amp; diagnostics</summary>
+        <label class="opt"><input type="checkbox" id="countin" /> Count-in before each repeat</label>
+        <div class="lab">
+          <button id="t-null">Sync test</button>
+          <button id="t-ramp">Timeline test</button>
+          <button id="t-bench">CPU bench</button>
+        </div>
+        <pre id="stats"></pre>
+        <pre id="out"></pre>
+      </details>
+    </main>
+  </div>
+
+  <!-- Player bar: always visible. Song structure, waveform, transport. -->
+  <footer id="dock">
+    <div id="strip" role="list" aria-label="Song structure"></div>
+    <div id="overview" role="slider" aria-label="Song position. Tap to seek, drag to repeat a range." tabindex="0">
+      <div id="blocks"></div>
+      <canvas id="wave"></canvas>
+      <div id="loopband"></div>
+      <div id="head"></div>
+      <span id="pos" class="time">0:00</span>
+      <span id="remain" class="time">-0:00</span>
+    </div>
+    <div class="transport">
+      <label class="ctl c-speed"><select id="speed"></select><span>Speed</span></label>
+      <div class="ctl c-prev"><button id="prev" aria-label="Previous section"></button><span aria-hidden="true">Prev section</span></div>
+      <div class="ctl c-play"><button id="play" class="primary" aria-label="Play" disabled></button></div>
+      <div class="ctl c-next"><button id="next" aria-label="Next section"></button><span aria-hidden="true">Next section</span></div>
+      <div class="ctl c-repeat"><button id="repeat" aria-label="Repeat current section" aria-pressed="false"></button><span aria-hidden="true">Repeat section</span></div>
+    </div>
+    <p id="loopinfo" aria-live="polite"></p>
+  </footer>
+</body>
+</html>

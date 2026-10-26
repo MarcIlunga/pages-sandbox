@@ -1,0 +1,178 @@
+{
+  "title": "The First Noel",
+  "slug": "the-first-noel",
+  "order": 2,
+  "key": null,
+  "tempo": 73.0,
+  "meter": [
+    4,
+    4
+  ],
+  "duration": 131.50684807256235,
+  "sampleRate": 44100,
+  "samples": 5799452,
+  "speeds": [
+    1
+  ],
+  "hash": "870ee912f9b51311",
+  "sections": [
+    {
+      "name": "Intro",
+      "detail": null,
+      "bar": 1,
+      "start": 0.0,
+      "end": 9.863014
+    },
+    {
+      "name": "Verse 1",
+      "detail": null,
+      "bar": 4,
+      "start": 9.863014,
+      "end": 36.164384
+    },
+    {
+      "name": "Chorus 1",
+      "detail": null,
+      "bar": 12,
+      "start": 36.164384,
+      "end": 49.315068
+    },
+    {
+      "name": "Verse 2",
+      "detail": null,
+      "bar": 16,
+      "start": 49.315068,
+      "end": 75.616438
+    },
+    {
+      "name": "Chorus 2",
+      "detail": null,
+      "bar": 24,
+      "start": 75.616438,
+      "end": 88.767123
+    },
+    {
+      "name": "Verse 3",
+      "detail": null,
+      "bar": 28,
+      "start": 88.767123,
+      "end": 115.068493
+    },
+    {
+      "name": "Chorus 3",
+      "detail": null,
+      "bar": 36,
+      "start": 115.068493,
+      "end": 128.219178
+    },
+    {
+      "name": "Ending",
+      "detail": null,
+      "bar": 40,
+      "start": 128.219178,
+      "end": 131.506849
+    }
+  ],
+  "tracks": [
+    {
+      "id": "soprano",
+      "name": "Soprano",
+      "kind": "voice",
+      "files": {
+        "1": "soprano.1fa9762514.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "alto",
+      "name": "Alto",
+      "kind": "voice",
+      "files": {
+        "1": "alto.3c9d425146.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "children",
+      "name": "Children",
+      "kind": "voice",
+      "files": {
+        "1": "children.f1598c18e5.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "drums",
+      "name": "Drums",
+      "kind": "instrument",
+      "files": {
+        "1": "drums.22dee617eb.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "percussion",
+      "name": "Percussion",
+      "kind": "instrument",
+      "files": {
+        "1": "percussion.7088ebb26b.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "bassline",
+      "name": "Bass line",
+      "kind": "instrument",
+      "files": {
+        "1": "bassline.5a15ed7633.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "keys",
+      "name": "Keys",
+      "kind": "instrument",
+      "files": {
+        "1": "keys.6b92bbc11d.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "synths",
+      "name": "Synths & Pads",
+      "kind": "instrument",
+      "files": {
+        "1": "synths.3105553829.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "fx",
+      "name": "Effects",
+      "kind": "instrument",
+      "files": {
+        "1": "fx.7d5e05da93.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "click",
+      "name": "Click",
+      "kind": "click",
+      "files": {
+        "1": "click.3ef3bf6694.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    }
+  ]
+}

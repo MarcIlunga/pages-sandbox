@@ -1,0 +1,257 @@
+{
+  "title": "We Three Kings",
+  "slug": "we-three-kings",
+  "order": 3,
+  "key": null,
+  "tempo": 150.0,
+  "meter": [
+    3,
+    4
+  ],
+  "duration": 252.0,
+  "sampleRate": 44100,
+  "samples": 11113200,
+  "speeds": [
+    1
+  ],
+  "hash": "da4d3c3fca5d100a",
+  "sections": [
+    {
+      "name": "Intro",
+      "detail": null,
+      "bar": 1,
+      "start": 0.0,
+      "end": 15.6
+    },
+    {
+      "name": "Verse 1 · men",
+      "detail": null,
+      "bar": 14,
+      "start": 15.6,
+      "end": 36.0
+    },
+    {
+      "name": "Refrain 1 · unison",
+      "detail": null,
+      "bar": 31,
+      "start": 36.0,
+      "end": 55.2
+    },
+    {
+      "name": "Interlude 1",
+      "detail": null,
+      "bar": 47,
+      "start": 55.2,
+      "end": 64.8
+    },
+    {
+      "name": "Verse 2 · kids + ladies",
+      "detail": null,
+      "bar": 55,
+      "start": 64.8,
+      "end": 85.2
+    },
+    {
+      "name": "Refrain 2 · harmonies",
+      "detail": null,
+      "bar": 72,
+      "start": 85.2,
+      "end": 104.4
+    },
+    {
+      "name": "Interlude 2",
+      "detail": null,
+      "bar": 88,
+      "start": 104.4,
+      "end": 114.0
+    },
+    {
+      "name": "Verse 3 · men, then ladies + kids",
+      "detail": null,
+      "bar": 96,
+      "start": 114.0,
+      "end": 134.4
+    },
+    {
+      "name": "Refrain 3 · harmonies",
+      "detail": null,
+      "bar": 113,
+      "start": 134.4,
+      "end": 153.6
+    },
+    {
+      "name": "Interlude 3",
+      "detail": null,
+      "bar": 129,
+      "start": 153.6,
+      "end": 163.2
+    },
+    {
+      "name": "Verse 4 · unison, quiet",
+      "detail": null,
+      "bar": 137,
+      "start": 163.2,
+      "end": 183.6
+    },
+    {
+      "name": "Refrain 4 · harmonies",
+      "detail": null,
+      "bar": 154,
+      "start": 183.6,
+      "end": 202.8
+    },
+    {
+      "name": "Interlude 4",
+      "detail": null,
+      "bar": 170,
+      "start": 202.8,
+      "end": 212.4
+    },
+    {
+      "name": "Verse 5 · harmonies",
+      "detail": null,
+      "bar": 178,
+      "start": 212.4,
+      "end": 232.8
+    },
+    {
+      "name": "Refrain 5 · harmonies",
+      "detail": null,
+      "bar": 195,
+      "start": 232.8,
+      "end": 252.0
+    }
+  ],
+  "tracks": [
+    {
+      "id": "soprano",
+      "name": "Soprano",
+      "kind": "voice",
+      "files": {
+        "1": "soprano.cda4abaafc.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "alto",
+      "name": "Alto",
+      "kind": "voice",
+      "files": {
+        "1": "alto.008ca30def.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "tenor",
+      "name": "Tenor",
+      "kind": "voice",
+      "files": {
+        "1": "tenor.7f1c12ba04.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "kind": "voice",
+      "files": {
+        "1": "bass.cb8fa84b7d.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "children",
+      "name": "Children",
+      "kind": "voice",
+      "files": {
+        "1": "children.08af6711c6.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "percussion",
+      "name": "Percussion",
+      "kind": "instrument",
+      "files": {
+        "1": "percussion.c1082ccc35.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "bassline",
+      "name": "Bass line",
+      "kind": "instrument",
+      "files": {
+        "1": "bassline.a08a9ebb43.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "synths",
+      "name": "Synths & Pads",
+      "kind": "instrument",
+      "files": {
+        "1": "synths.df75df6926.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "fx",
+      "name": "Effects",
+      "kind": "instrument",
+      "files": {
+        "1": "fx.0241bcf8c8.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "winds",
+      "name": "Oboe & Winds",
+      "kind": "instrument",
+      "files": {
+        "1": "winds.fb3938bca0.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "violins",
+      "name": "Violins & Violas",
+      "kind": "instrument",
+      "files": {
+        "1": "violins.9fd8729f00.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "celli",
+      "name": "Celli & Basses",
+      "kind": "instrument",
+      "files": {
+        "1": "celli.442b5c90e6.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "click",
+      "name": "Click",
+      "kind": "click",
+      "files": {
+        "1": "click.2a8bcdb61f.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    }
+  ]
+}

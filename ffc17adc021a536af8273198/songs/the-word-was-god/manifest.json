@@ -1,0 +1,166 @@
+{
+  "title": "The Word Was God",
+  "slug": "the-word-was-god",
+  "order": 1,
+  "key": null,
+  "tempo": 160.0,
+  "meter": [
+    2,
+    2
+  ],
+  "duration": 145.5,
+  "sampleRate": 44100,
+  "samples": 6416550,
+  "speeds": [
+    1
+  ],
+  "hash": "e77965421d5d7fb3",
+  "sections": [
+    {
+      "name": "Unison intro (everyone)",
+      "detail": null,
+      "bar": null,
+      "start": 0.0,
+      "end": 13.5
+    },
+    {
+      "name": "Percussion intro",
+      "detail": null,
+      "bar": null,
+      "start": 13.5,
+      "end": 25.5
+    },
+    {
+      "name": "Sopranos + Altos",
+      "detail": null,
+      "bar": 1,
+      "start": 25.5,
+      "end": 34.5
+    },
+    {
+      "name": "Tenors + Basses",
+      "detail": null,
+      "bar": 7,
+      "start": 34.5,
+      "end": 43.5
+    },
+    {
+      "name": "Layered, all voices",
+      "detail": null,
+      "bar": 13,
+      "start": 43.5,
+      "end": 67.5
+    },
+    {
+      "name": "All things were made",
+      "detail": null,
+      "bar": 29,
+      "start": 67.5,
+      "end": 91.5
+    },
+    {
+      "name": "Basses alone (ostinato)",
+      "detail": null,
+      "bar": 45,
+      "start": 91.5,
+      "end": 94.5
+    },
+    {
+      "name": "Tenors enter",
+      "detail": null,
+      "bar": 47,
+      "start": 94.5,
+      "end": 108.0
+    },
+    {
+      "name": "Altos enter",
+      "detail": null,
+      "bar": 56,
+      "start": 108.0,
+      "end": 121.5
+    },
+    {
+      "name": "Sopranos enter",
+      "detail": null,
+      "bar": 65,
+      "start": 121.5,
+      "end": 133.5
+    },
+    {
+      "name": "Coda",
+      "detail": null,
+      "bar": 73,
+      "start": 133.5,
+      "end": 139.5
+    },
+    {
+      "name": "Unison ending",
+      "detail": null,
+      "bar": 77,
+      "start": 139.5,
+      "end": 145.5
+    }
+  ],
+  "tracks": [
+    {
+      "id": "soprano",
+      "name": "Soprano",
+      "kind": "voice",
+      "files": {
+        "1": "soprano.118039433d.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "alto",
+      "name": "Alto",
+      "kind": "voice",
+      "files": {
+        "1": "alto.ebe8e2c12d.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "tenor",
+      "name": "Tenor",
+      "kind": "voice",
+      "files": {
+        "1": "tenor.604438a658.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "kind": "voice",
+      "files": {
+        "1": "bass.4652f3d688.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "percussion",
+      "name": "Percussion",
+      "kind": "instrument",
+      "files": {
+        "1": "percussion.a6daac3c45.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "click",
+      "name": "Click",
+      "kind": "click",
+      "files": {
+        "1": "click.4a6685cbc3.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    }
+  ]
+}

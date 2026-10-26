@@ -1,0 +1,104 @@
+{
+  "songs": [
+    {
+      "slug": "the-word-was-god",
+      "title": "The Word Was God",
+      "order": 1,
+      "key": null,
+      "tempo": 160.0,
+      "meter": [
+        2,
+        2
+      ],
+      "duration": 145.5,
+      "tracks": [
+        "Soprano",
+        "Alto",
+        "Tenor",
+        "Bass",
+        "Percussion"
+      ]
+    },
+    {
+      "slug": "the-first-noel",
+      "title": "The First Noel",
+      "order": 2,
+      "key": null,
+      "tempo": 73.0,
+      "meter": [
+        4,
+        4
+      ],
+      "duration": 131.507,
+      "tracks": [
+        "Soprano",
+        "Alto",
+        "Children",
+        "Drums",
+        "Percussion",
+        "Bass line",
+        "Keys",
+        "Synths & Pads",
+        "Effects"
+      ]
+    },
+    {
+      "slug": "we-three-kings",
+      "title": "We Three Kings",
+      "order": 3,
+      "key": null,
+      "tempo": 150.0,
+      "meter": [
+        3,
+        4
+      ],
+      "duration": 252.0,
+      "tracks": [
+        "Soprano",
+        "Alto",
+        "Tenor",
+        "Bass",
+        "Children",
+        "Percussion",
+        "Bass line",
+        "Synths & Pads",
+        "Effects",
+        "Oboe & Winds",
+        "Violins & Violas",
+        "Celli & Basses"
+      ]
+    },
+    {
+      "slug": "silent-night",
+      "title": "Silent Night",
+      "order": 4,
+      "key": null,
+      "tempo": 88.5,
+      "meter": [
+        3,
+        4
+      ],
+      "duration": 170.847,
+      "tracks": [
+        "Children 10–17"
+      ]
+    },
+    {
+      "slug": "joy-to-the-world",
+      "title": "Joy to the World",
+      "order": 5,
+      "key": null,
+      "tempo": 140.0,
+      "meter": [
+        4,
+        4
+      ],
+      "duration": 61.714,
+      "tracks": [
+        "Children 10–17",
+        "Drums",
+        "Percussion"
+      ]
+    }
+  ]
+}

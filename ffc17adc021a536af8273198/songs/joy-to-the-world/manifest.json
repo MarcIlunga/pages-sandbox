@@ -1,0 +1,97 @@
+{
+  "title": "Joy to the World",
+  "slug": "joy-to-the-world",
+  "order": 5,
+  "key": null,
+  "tempo": 140.0,
+  "meter": [
+    4,
+    4
+  ],
+  "duration": 61.714285714285715,
+  "sampleRate": 44100,
+  "samples": 2721600,
+  "speeds": [
+    1
+  ],
+  "hash": "b99cd82892fa1e07",
+  "sections": [
+    {
+      "name": "Intro",
+      "detail": null,
+      "bar": 1,
+      "start": 0.0,
+      "end": 3.428571
+    },
+    {
+      "name": "Verse 1",
+      "detail": null,
+      "bar": 3,
+      "start": 3.428571,
+      "end": 20.571429
+    },
+    {
+      "name": "Verse 2",
+      "detail": null,
+      "bar": 13,
+      "start": 20.571429,
+      "end": 37.714286
+    },
+    {
+      "name": "Verse 3",
+      "detail": null,
+      "bar": 23,
+      "start": 37.714286,
+      "end": 54.857143
+    },
+    {
+      "name": "Ending",
+      "detail": null,
+      "bar": 33,
+      "start": 54.857143,
+      "end": 61.714286
+    }
+  ],
+  "tracks": [
+    {
+      "id": "children1017",
+      "name": "Children 10–17",
+      "kind": "voice",
+      "files": {
+        "1": "children1017.7e0ed92838.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "drums",
+      "name": "Drums",
+      "kind": "instrument",
+      "files": {
+        "1": "drums.126773a960.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "percussion",
+      "name": "Percussion",
+      "kind": "instrument",
+      "files": {
+        "1": "percussion.2f2552ab40.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "click",
+      "name": "Click",
+      "kind": "click",
+      "files": {
+        "1": "click.9255e55f55.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    }
+  ]
+}

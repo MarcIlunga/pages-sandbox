@@ -1,0 +1,77 @@
+{
+  "title": "Silent Night",
+  "slug": "silent-night",
+  "order": 4,
+  "key": null,
+  "tempo": 88.5,
+  "meter": [
+    3,
+    4
+  ],
+  "duration": 170.8474603174603,
+  "sampleRate": 44100,
+  "samples": 7534373,
+  "speeds": [
+    1
+  ],
+  "hash": "8f91b3dfd7832cac",
+  "sections": [
+    {
+      "name": "Intro",
+      "detail": null,
+      "bar": 1,
+      "start": 0.0,
+      "end": 8.135593
+    },
+    {
+      "name": "Verse 1",
+      "detail": null,
+      "bar": 5,
+      "start": 8.135593,
+      "end": 61.016949
+    },
+    {
+      "name": "Verse 2",
+      "detail": null,
+      "bar": 31,
+      "start": 61.016949,
+      "end": 113.898305
+    },
+    {
+      "name": "Verse 3",
+      "detail": null,
+      "bar": 57,
+      "start": 113.898305,
+      "end": 162.711864
+    },
+    {
+      "name": "Ending",
+      "detail": null,
+      "bar": 81,
+      "start": 162.711864,
+      "end": 170.847458
+    }
+  ],
+  "tracks": [
+    {
+      "id": "children1017",
+      "name": "Children 10–17",
+      "kind": "voice",
+      "files": {
+        "1": "children1017.40cfed926b.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "click",
+      "name": "Click",
+      "kind": "click",
+      "files": {
+        "1": "click.227e716544.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    }
+  ]
+}

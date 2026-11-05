@@ -1,0 +1,149 @@
+{
+  "title": "The First Noel",
+  "slug": "the-first-noel",
+  "order": 2,
+  "key": null,
+  "tempo": 73.0,
+  "meter": [
+    4,
+    4
+  ],
+  "duration": 161.09589569160997,
+  "sampleRate": 44100,
+  "samples": 7104329,
+  "speeds": [
+    1
+  ],
+  "hash": "38899c0518d31b0d",
+  "sections": [
+    {
+      "name": "Intro",
+      "detail": null,
+      "bar": 1,
+      "start": 0.0,
+      "end": 9.863014
+    },
+    {
+      "name": "Verse 1",
+      "detail": null,
+      "bar": 4,
+      "start": 9.863014,
+      "end": 36.164384
+    },
+    {
+      "name": "Chorus 1",
+      "detail": null,
+      "bar": 12,
+      "start": 36.164384,
+      "end": 49.315068
+    },
+    {
+      "name": "Verse 2",
+      "detail": null,
+      "bar": 16,
+      "start": 49.315068,
+      "end": 75.616438
+    },
+    {
+      "name": "Chorus 2",
+      "detail": null,
+      "bar": 24,
+      "start": 75.616438,
+      "end": 88.767123
+    },
+    {
+      "name": "Verse 3",
+      "detail": null,
+      "bar": 28,
+      "start": 88.767123,
+      "end": 115.068493
+    },
+    {
+      "name": "Chorus 3",
+      "detail": null,
+      "bar": 36,
+      "start": 115.068493,
+      "end": 128.219178
+    },
+    {
+      "name": "New part: Jesus, our King",
+      "detail": null,
+      "bar": 40,
+      "start": 128.219178,
+      "end": 161.09589
+    }
+  ],
+  "mixGain": 0.9018,
+  "tracks": [
+    {
+      "id": "soprano",
+      "name": "Soprano",
+      "kind": "voice",
+      "files": {
+        "1": "soprano.6df4b7b4e2.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "alto",
+      "name": "Alto",
+      "kind": "voice",
+      "files": {
+        "1": "alto.f377d72872.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "tenor",
+      "name": "Tenor",
+      "kind": "voice",
+      "files": {
+        "1": "tenor.a4ca52c911.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "kind": "voice",
+      "files": {
+        "1": "bass.545494a2bd.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "children",
+      "name": "Children",
+      "kind": "voice",
+      "files": {
+        "1": "children.09bb033011.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "band",
+      "name": "Band",
+      "kind": "instrument",
+      "files": {
+        "1": "band.812d58347f.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    },
+    {
+      "id": "click",
+      "name": "Click",
+      "kind": "click",
+      "files": {
+        "1": "click.32fe97a35d.m4a"
+      },
+      "channels": 1,
+      "defaultGain": 1.0
+    }
+  ]
+}
